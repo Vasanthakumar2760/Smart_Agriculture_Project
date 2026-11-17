@@ -1,0 +1,36 @@
+# Assets and project reports
+Assets/
+assets/
+extracted_ref_media/
+generated_diagrams/
+screenshots/
+
+# Secrets and configuration credentials
+*.toml
+.streamlit/secrets.toml
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Temporary files, logs and browser data
+*.log
+*.tmp
+.edge_data/
+.chrome_temp/
+test_edge.png
+test_chrome.png
+test_selenium.png
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
